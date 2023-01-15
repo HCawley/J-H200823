@@ -1,5 +1,4 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
 import FlowerArch from "../components/FlowerArch";
 
 const gifts = () => {

@@ -1,5 +1,4 @@
 import HotelInfo from "../components/HotelInfo";
-import Typewriter from "typewriter-effect";
 import FlowerArch from "../components/FlowerArch";
 
 const Hotels = () => {

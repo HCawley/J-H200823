@@ -1,5 +1,4 @@
 import Countdown from "../components/Countdown";
-import Typewriter from "typewriter-effect";
 import FlowerArch from "../components/FlowerArch";
 import Maps from "../components/Maps";
 
@@ -25,6 +24,7 @@ const About = () => {
           <Maps />
         </div>
         <p className="mt-2">Taxis 11:45pm</p>
+        <p className="mt-5">Please note cars can be left overnight at the venue but please collect them before 10:30am on Monday 21st August</p>
       </div>
     </>
   );
