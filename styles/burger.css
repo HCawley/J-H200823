@@ -1,0 +1,53 @@
+.bm-burger-button {
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+  }
+  
+  .bm-burger-bars {
+    background: #373a47;
+  }  
+  
+  /* .bm-cross-button {
+    height: 30px;
+    width: 30px;
+  } */
+  
+  .bm-cross {
+    background: #784E4E;
+  }
+  
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  .bm-menu {
+    background: #d1a7a7;
+    padding: 0.3rem 0.3rem 0;
+    font-size: 1.15em;
+  }
+  
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  .bm-item-list {
+    color: #784E4E;
+    padding: 0.8em;
+  }
+  
+  .bm-item {
+    display: inline-block;
+  }
+  
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+    top: 0;
+  }
+/* styling next link component so that will be a column list of links*/
+  .bm-item-list a {
+    display: flex;
+    flex-direction: column;
+  }
