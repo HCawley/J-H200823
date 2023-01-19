@@ -1,7 +1,6 @@
 import React from "react";
 import axios from "axios";
 import { motion } from 'framer-motion'
-import Typewriter from 'typewriter-effect';
 
 
 function Form() {

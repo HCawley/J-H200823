@@ -1,5 +1,5 @@
 import React from 'react'
-import FlowerArch from '../components/FlowerArch'
+import FlowerArch from '../components/flowerArch'
 
 const thankyou = () => {
   return (

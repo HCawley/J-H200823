@@ -14,7 +14,7 @@ const gifts = () => {
           Please know that your presence is the best gift you can give to us.
         </p>
         <p className="pt-2">
-          Should you wish to buy us something, we'd greatly appreciate a
+          Should you wish to buy us something, we&apos;d greatly appreciate a
           contribution towards our honeymoon in Bali!
         </p>
       </div>
