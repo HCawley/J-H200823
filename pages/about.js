@@ -24,7 +24,7 @@ const About = () => {
           <Maps />
         </div>
         <p className="mt-2">Taxis 11:45pm</p>
-        <p className="mt-5">Please note cars can be left overnight at the venue but please collect them before 10:30am on Monday 21st August</p>
+        <p className="mt-5">Cars can be left overnight at the venue but please collect them before 10:30am on Monday 21st August</p>
       </div>
     </>
   );
