@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import { motion } from "framer-motion";
 import "../styles/globals.css";
 import "../styles/burger.css";

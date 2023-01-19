@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import FlowerArch from "../components/FlowerArch";
+import FlowerArch from "../components/flowerArch";
 
 export default function Home() {
   return (

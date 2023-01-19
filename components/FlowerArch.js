@@ -7,7 +7,7 @@ const FlowerArch = () => {
       <Image
         width={500}
         height={300}
-        src="/Flower-arch.png"
+        src="/flower-arch.png"
         alt="flower arch"
         className="z-0"
         priority

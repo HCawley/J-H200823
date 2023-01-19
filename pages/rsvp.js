@@ -1,6 +1,6 @@
 import React from "react";
-import Form from '../components/Form'
-import FlowerArch from '../components/FlowerArch'
+import Form from '../components/form'
+import FlowerArch from '../components/flowerArch'
 
 const rsvp = () => {
   return (

@@ -1,5 +1,5 @@
-import HotelInfo from "../components/HotelInfo";
-import FlowerArch from "../components/FlowerArch";
+import HotelInfo from "../components/hotelInfo";
+import FlowerArch from "../components/flowerArch";
 
 const Hotels = () => {
   return (
@@ -9,7 +9,7 @@ const Hotels = () => {
         <h1 className="text-center my-10 text-4xl font-bold">Places to stay</h1>
         <div className="flex flex-wrap justify-center">
           <HotelInfo
-            image="/PremierInn.jpeg"
+            image="/premierInn.jpeg"
             name="Premier Inn"
             distance="15 mins"
             location="Leek"
@@ -17,7 +17,7 @@ const Hotels = () => {
           />
 
           <HotelInfo
-            image="/Hilton.jpeg"
+            image="/hilton.jpeg"
             name="Hilton Garden Inn"
             distance="30 mins"
             location="Stoke-on-Trent"
@@ -26,7 +26,7 @@ const Hotels = () => {
           />
 
           <HotelInfo
-            image="/DuncombeArms.jpeg"
+            image="/duncombeArms.jpeg"
             name="Duncombe Arms"
             distance="30 mins"
             location="Ashbourne"
@@ -34,7 +34,7 @@ const Hotels = () => {
           />
 
           <HotelInfo
-            image="/DoveCottage.jpeg"
+            image="/doveCottage.jpeg"
             name="Dove Farm Barns/Rose Cottages"
             distance="15-20mins"
             location="Caverswall"
@@ -42,7 +42,7 @@ const Hotels = () => {
           />
 
           <HotelInfo
-            image="/PeakWeaversGuest.jpeg"
+            image="/peakWeaversGuest.jpeg"
             name="Peak Weavers"
             distance="15-20mins"
             location="Leek"
@@ -50,7 +50,7 @@ const Hotels = () => {
           />
 
           <HotelInfo
-            image="/TawnyHotel.jpeg"
+            image="/tawnyHotel.jpeg"
             name="Tawny Hotel"
             distance="On site"
             location="Stoke-on-Trent"

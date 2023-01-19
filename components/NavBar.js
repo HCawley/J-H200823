@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
-import HamburgerMenu, { Links } from "./Hamburger.js";
+import HamburgerMenu, { Links } from "./hamburger.js";
 
 const NavBar = () => {
   return (

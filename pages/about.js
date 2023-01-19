@@ -1,6 +1,6 @@
-import Countdown from "../components/Countdown";
-import FlowerArch from "../components/FlowerArch";
-import Maps from "../components/Maps";
+import Countdown from "../components/countdown";
+import FlowerArch from "../components/flowerArch";
+import Maps from "../components/maps";
 
 const About = () => {
   return (
