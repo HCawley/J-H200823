@@ -9,7 +9,7 @@ const Hotels = () => {
         <h1 className="text-center my-10 text-4xl font-bold">Places to stay</h1>
         <div className="flex flex-wrap justify-center">
           <HotelInfo
-            image="/premierInn.jpeg"
+            image="/PremierInn.jpeg"
             name="Premier Inn"
             distance="15 mins"
             location="Leek"
@@ -17,7 +17,7 @@ const Hotels = () => {
           />
 
           <HotelInfo
-            image="/hilton.jpeg"
+            image="/Hilton.jpeg"
             name="Hilton Garden Inn"
             distance="30 mins"
             location="Stoke-on-Trent"
@@ -26,7 +26,7 @@ const Hotels = () => {
           />
 
           <HotelInfo
-            image="/duncombeArms.jpeg"
+            image="/DuncombeArms.jpeg"
             name="Duncombe Arms"
             distance="30 mins"
             location="Ashbourne"
@@ -34,7 +34,7 @@ const Hotels = () => {
           />
 
           <HotelInfo
-            image="/doveCottage.jpeg"
+            image="/DoveCottage.jpeg"
             name="Dove Farm Barns/Rose Cottages"
             distance="15-20mins"
             location="Caverswall"
@@ -42,7 +42,7 @@ const Hotels = () => {
           />
 
           <HotelInfo
-            image="/peakWeaversGuest.jpeg"
+            image="/PeakWeaversGuest.jpeg"
             name="Peak Weavers"
             distance="15-20mins"
             location="Leek"
@@ -50,7 +50,7 @@ const Hotels = () => {
           />
 
           <HotelInfo
-            image="/tawnyHotel.jpeg"
+            image="/TawnyHotel.jpeg"
             name="Tawny Hotel"
             distance="On site"
             location="Stoke-on-Trent"
