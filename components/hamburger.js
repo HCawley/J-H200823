@@ -32,7 +32,7 @@ const HamburgerIcon = () => (
 
 export const Links = () => (
   <>
-    <div className="md:flex">
+    <div className="md:flex text-xl mt-10 p-2 px-8">
       <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
         <Link className="pt-8 p-4 md:p-0" href="/">
           Home

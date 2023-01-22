@@ -3,7 +3,7 @@ import NavBar from "./navBar";
 
 const Layout = ({ children }) => {
   return (
-    <div className="max-w-full bg-blush text-plum">
+    <div className="text-plum" style={{backgroundImage: 'url(/Background.jpg)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
       <NavBar />
       {children}
       <Footer />

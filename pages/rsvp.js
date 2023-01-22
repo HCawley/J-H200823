@@ -6,7 +6,7 @@ const rsvp = () => {
   return (
     <>
     <FlowerArch />
-    <div className="h-screen z-10 -mt-28 lg:-mt-36">
+    <div className="h-screen z-10 -mt-28 lg:-mt-36 mb-40">
       <Form/>
     </div>
     </>

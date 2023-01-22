@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/rsvp.js"  ],
+, "pages/rsvp.js", "components/confetti.js"  ],
   "exclude": [
     "node_modules"
   ]

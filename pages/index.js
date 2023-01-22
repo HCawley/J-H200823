@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <>
       <FlowerArch className="-mt-10"/>
-      <div className="z-10 -mt-28 lg:-mt-36 max-w-full h-screen px-8 text-center">
-        <div className="text-6xl mt-10 font-bold">
+      <div className="h-screen z-10 -mt-28 lg:-mt-36 px-8 text-center mb-40">
+        <div className="text-4xl md:text-6xl mt-10 font-bold">
           <Typewriter
             onInit={(typewriter) => {
               typewriter.typeString("Jim & Helen").pauseFor(2500).deleteAll();
@@ -17,7 +17,7 @@ export default function Home() {
             }}
           />
         </div>
-        <p className="text-3xl pt-2">Sunday 20th August 2023</p>
+        <p className="text-1xl md:text-3xl pt-2">Sunday 20th August 2023</p>
         <motion.div
           initial={{ scale: 0.8 }}
           animate={{ scale: [1, 0.8, 1] }}

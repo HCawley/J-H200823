@@ -45,11 +45,11 @@ function Form() {
     <div className="text-center text-lg px-8">
       <h1 className="mt-10 text-4xl font-bold">RSVP</h1>
       <p className="mt-5">
-        Please let us know if you are planning to joining us by the latest February 28th 2023
+        Please let us know if you are planning to join us by the latest March 1st 2023
       </p>
       <form
         onSubmit={handleSubmit}
-        className="w-80 my-10 m-auto p-10 border-4 border-solid border-neutral shadow rounded-md flex flex-col"
+        className="text-center w-74 my-10 m-auto md:w-3/4 lg:w-2/6 lg:h-2/4 p-10 border-4 border-solid border-neutral shadow rounded-md flex flex-col"
       >
         <label htmlFor="name" className="pb-2">
           Name(s)
@@ -58,12 +58,12 @@ function Form() {
           onChange={handleChange}
           value={state.name}
           name="name"
-          className="w-48 m-auto rounded-md"
+          className="w-42 m-auto rounded-md md:m-0"
           type="text"
           required
         />
         <label html="rsvp" className="pt-2">Will be..</label>
-        <select onChange={handleChange} value={state.rsvp} className="w-48 m-auto text-center rounded-md" name="rsvp" required>
+        <select onChange={handleChange} value={state.rsvp} className="w-42 px-4 m-auto text-center rounded-md md:m-0" name="rsvp" required>
           <option></option>
           <option>Attending!</option>
           <option>Not attending</option>
@@ -72,7 +72,7 @@ function Form() {
         <label htmlFor="allergy" className="mt-5 pb-2">
           Dietary requirements:
         </label>
-        <textarea onChange={handleChange} name="allergy" type="text" value={state.allergy} className="rounded-md" required/>
+        <textarea onChange={handleChange} name="allergy" type="text" value={state.allergy} className="w-42 m-auto rounded-md md:m-0" required/>
         <motion.div
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}>
