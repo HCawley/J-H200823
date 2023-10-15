@@ -1,4 +1,4 @@
-import Countdown from "../components/countdown";
+import Confetti from "../components/confetti";
 import FlowerArch from "../components/flowerArch";
 import Maps from "../components/maps";
 
@@ -15,7 +15,8 @@ const About = () => {
         <p className="mt-5">Sunday 20th August 2023 1:30pm</p>
         <p>Arrival from 1pm</p>
         <p className="mt-5">Let the countdown begin...</p>
-        <Countdown />
+        <Confetti />
+        <h2 className="font-bold">JUST MARRIED</h2>
         
         <div className="mt-10">
           <p>Foxtail Barns</p>
